@@ -1,34 +1,15 @@
 name: ms465-2026
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - scikit-learn[version='>=1.3']
   - python=3.11
-  - scikit-image[version='>=0.20']
-  - torchvision
-  - matplotlib[version='>=3.6']
-  - h5py[version='>=3.8']
-  - pytorch[version='>=2.0']
-  - seaborn
-  - keras
-  - tensorflow[version='>=2.13']
-  - jupyterlab-git
-  - zarr
-  - dask
-  - nb_conda_kernels
-  - pillow
+  - numpy=1.26.4
+  - scipy=1.10.1
+  - matplotlib=3.10.8
+  - hyperspy=2.3.0
+  - scikit-learn=1.4.2
+  - jupyter=7.5.2
   - pip
-  - bokeh
-  - xarray
-  - tqdm
-  - ipywidgets
-  - imageio
-  - mayavi
-  - numpy[version='>=1.24']
-  - pandas[version='>=2.0']
-  - jupyter-lsp
-  - scipy[version='>=1.10']
-  - plotly
-  - jupyterlab[version='>=4.0']
-  - hyperspy
-  - py4dstem
+  - pip:
+    - py4DSTEM=0.14.16
