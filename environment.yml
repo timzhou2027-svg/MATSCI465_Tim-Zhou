@@ -32,4 +32,3 @@ dependencies:
   - jupyterlab[version='>=4.0']
   - hyperspy
   - py4dstem
-prefix: /Users/timzhou/miniforge3/envs/ms465-2026
