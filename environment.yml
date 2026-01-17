@@ -1,0 +1,35 @@
+name: ms465-2026
+channels:
+  - conda-forge
+dependencies:
+  - scikit-learn[version='>=1.3']
+  - python=3.11
+  - scikit-image[version='>=0.20']
+  - torchvision
+  - matplotlib[version='>=3.6']
+  - h5py[version='>=3.8']
+  - pytorch[version='>=2.0']
+  - seaborn
+  - keras
+  - tensorflow[version='>=2.13']
+  - jupyterlab-git
+  - zarr
+  - dask
+  - nb_conda_kernels
+  - pillow
+  - pip
+  - bokeh
+  - xarray
+  - tqdm
+  - ipywidgets
+  - imageio
+  - mayavi
+  - numpy[version='>=1.24']
+  - pandas[version='>=2.0']
+  - jupyter-lsp
+  - scipy[version='>=1.10']
+  - plotly
+  - jupyterlab[version='>=4.0']
+  - hyperspy
+  - py4dstem
+prefix: /Users/timzhou/miniforge3/envs/ms465-2026
