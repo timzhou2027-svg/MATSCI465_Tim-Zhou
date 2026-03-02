@@ -1,0 +1,7 @@
+Method,Accuracy/F1,Runtime (ms),Data Required,Interpretability,Automation
+Watershed (Classical),2.4204,~50,Single image,Very High,High
+SVM (ML),0.9944,~150,100+ samples,Medium,Medium
+Random Forest (ML),1.0000,~100,100+ samples,Medium-High,Medium
+K-Means (Unsupervised),0.2656,~200,100+ samples,Low,Low
+CNN,0.8467,~300-500,50+ samples,Low-Medium,High
+U-net,0.7827,~300-500,200+ samples,Low-Medium,High
